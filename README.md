@@ -12,13 +12,13 @@
 * 서비스 → SAP Web IDE 전체 스택(Full Stack) → 서비스로 이동
 
 ---
-### 3. 프로젝트 생성 (Ex01)
+### 3. 프로젝트 생성 ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
 * Workspace 우클릭 → New → Project from Template
 * SAPUI5 Application 선택 → Next
 * Project Name: Ex01, Namespace: ns 입력 → Next → Finish
 
 ---
-### 4. Hello, World! (Ex01)
+### 4. Hello, World! ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
 * View1.view.xml 파일의 <content></content> 안에 라벨 작성
     ```xml
     <content><Label text="Hello, World!"/></content>
@@ -48,7 +48,7 @@
     * JavaScript
 
 ---
-### 7. SAPUI5 UI Control (Ex01)
+### 7. SAPUI5 UI Control ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
 * Label, Input, Button 생성 (View1.view.xml)
     ```xml
     <Page id="page" title="Ex01 - XML View">
@@ -83,8 +83,8 @@
     * Commented: Ctrl + /, Ctrl + Shift + /
 
 ---
-### 8. Different View Types (Ex02)
-* 예제 프로젝트 (Ex02) Import
+### 8. Different View Types
+* 예제 프로젝트 ([Ex02](https://github.com/knotting/sapui5-tutorial/raw/master/Ex02.zip)) Import
     * Workspace 우클릭 → Import → File or Project
     * Browse... → Ex02.zip 선택 → OK
 * index.html 의 설정 변경 (viewName, type)
@@ -117,8 +117,8 @@
     * https://openui5.hana.ondemand.com
 
 ---
-### 11. Using Layouts (Ex03)
-* 예제 프로젝트 (Ex03) Import
+### 11. Using Layouts
+* 예제 프로젝트 ([Ex03](https://github.com/knotting/sapui5-tutorial/raw/master/Ex03.zip)) Import
     * Workspace 우클릭 → Import → File or Project
     * Browse... → Ex03.zip 선택 → OK
 * Commented Source 확인
@@ -127,22 +127,22 @@
 
 ---
 ### 12. Data Handling
-1. Property Binding (Ex04)
-    * 예제 프로젝트 (Ex04) Import
+1. Property Binding
+    * 예제 프로젝트 ([Ex04](https://github.com/knotting/sapui5-tutorial/raw/master/Ex04.zip)) Import
         * Workspace 우클릭 → Import → File or Project
         * Browse... → Ex04.zip 선택 → OK
     * Commented Source 확인
         * View1.view.xml
         * View1.controller.js
-2. Aggregation Binding (Ex05)
-    * 예제 프로젝트 (Ex05) Import
+2. Aggregation Binding
+    * 예제 프로젝트 ([Ex05](https://github.com/knotting/sapui5-tutorial/raw/master/Ex05.zip)) Import
         * Workspace 우클릭 → Import → File or Project
         * Browse... → Ex05.zip 선택 → OK
     * Commented Source 확인
         * View1.view.xml
         * View1.controller.js
-3. Using OData (Ex06)
-    * 예제 프로젝트 (Ex06) Import
+3. Using OData
+    * 예제 프로젝트 ([Ex06](https://github.com/knotting/sapui5-tutorial/raw/master/Ex06.zip)) Import
         * Workspace 우클릭 → Import → File or Project
         * Browse... → Ex06.zip 선택 → OK
     * Destination 설정
