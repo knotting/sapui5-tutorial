@@ -2,25 +2,33 @@
 
 **※ Chrome 설치 필요**
 
+---
 ### 1. SCP(SAP Cloud Platform) TRIAL 접속 및 가입
 * https://account.hanatrial.ondemand.com/
 * 네오(NEO) 평가판으로 접속
 
+---
 ### 2. SAP WEB IDE 실행
 * 서비스 → SAP Web IDE 전체 스택(Full Stack) → 서비스로 이동
 
+---
 ### 3. 프로젝트 생성 (Ex01)
 * Workspace 우클릭 → New → Project from Template
 * SAPUI5 Application 선택 → Next
 * Project Name: Ex01, Namespace: ns 입력 → Next → Finish
 
+---
 ### 4. Hello, World! (Ex01)
 * View1.view.xml 파일의 <content></content> 안에 라벨 작성
-* <content><Label text="Hello, World!"/></content>
+    ```xml
+    <content><Label text="Hello, World!"/></content>
+    ```
 
+---
 ### 5. App Overview
 ![App Overview](https://sapui5.hana.ondemand.com/docs/topics/loioeeae30fe7983476a9777e809a8820147_LowRes.png)
 
+---
 ### 6. Model View Controller (MVC) Concept
 ![MVC](https://sapui5.hana.ondemand.com/docs/topics/loio1eb216151b1b41f1979b7b6c969670df_LowRes.png)
 * Models
@@ -39,6 +47,7 @@
 * Controllers
     * JavaScript
 
+---
 ### 7. SAPUI5 UI Control (Ex01)
 * Label, Input, Button 생성 (View1.view.xml)
     ```xml
@@ -51,7 +60,7 @@
         <Button id="btnSubmit" text="Submit" press="onBtnClick"/>
         </content>
     </Page>
-        ```
+    ```
 * Controller 연동
     * "sap/m/MessageBox" define 추가
     * MessageBox Function Parameter 추가
@@ -73,6 +82,7 @@
     * Beautifier: Ctrl + Alt + B
     * Commented: Ctrl + /, Ctrl + Shift + /
 
+---
 ### 8. Different View Types (Ex02)
 * 예제 프로젝트 (Ex02) Import
     * Workspace 우클릭 → Import → File or Project
@@ -90,6 +100,7 @@
     </script>
     ```
 
+---
 ### 9. Debugging
 * Chrome Developer Tools
     * Ctrl + Shift + I (in Chrome)
@@ -98,12 +109,14 @@
     * Chrome 웹 스토어
         * https://chrome.google.com/webstore/category/extensions?hl=ko
 
+---
 ### 10. Documentation
 * SAPUI5
     * https://sapui5.hana.ondemand.com
 * OPENUI5
     * https://openui5.hana.ondemand.com
 
+---
 ### 11. Using Layouts (Ex03)
 * 예제 프로젝트 (Ex03) Import
     * Workspace 우클릭 → Import → File or Project
@@ -112,6 +125,7 @@
     * View1.view.xml
     * View1.controller.js
 
+---
 ### 12. Data Handling
 1. Property Binding (Ex04)
     * 예제 프로젝트 (Ex04) Import
@@ -146,3 +160,4 @@
         * View1.view.xml
         * View1.controller.js
 
+---
