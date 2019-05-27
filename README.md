@@ -52,13 +52,13 @@
 * Label, Input, Button 생성 (View1.view.xml)
     ```xml
     <Page id="page" title="Ex01 - XML View">
-        <content>
+      <content>
         <Label id="lblFirstName" text="First Name:"/>
         <Input id="inpFirstName"/>
         <Label id="lblLastName" text="Last Name:"/>
         <Input id="inpLastName"/>
         <Button id="btnSubmit" text="Submit" press="onBtnClick"/>
-        </content>
+      </content>
     </Page>
     ```
 * Controller 연동
@@ -67,14 +67,14 @@
     * onBtnClick 이벤트 추가
         ```javascript
         onBtnClick: function () {
-            var firstName = this.byId("inpFirstName").getValue();
-            var lastName = this.byId("inpLastName").getValue();
-            var message = "First Name: " + firstName + "\n" + "Last Name: " + lastName;
-            MessageBox.show(message, {
+          var firstName = this.byId("inpFirstName").getValue();
+          var lastName = this.byId("inpLastName").getValue();
+          var message = "First Name: " + firstName + "\n" + "Last Name: " + lastName;
+          MessageBox.show(message, {
             icon: MessageBox.Icon.SUCCESS,
             title: "Button Pressed",
             actions: MessageBox.Action.CLOSE
-            });
+          });
         }
         ```
 * Code Assist
@@ -90,13 +90,13 @@
 * index.html 의 설정 변경 (viewName, type)
     ```html
     <script>
-        sap.ui.getCore().attachInit(function() {
+      sap.ui.getCore().attachInit(function() {
         new sap.m.Shell({
-            app: new sap.ui.view({id:"idView1", viewName:"ns.Ex02.view.View1", 
+          app: new sap.ui.view({id:"idView1", viewName:"ns.Ex02.view.View1", 
                                 height:"100%",
                                 type:sap.ui.core.mvc.ViewType.XML})
         }).placeAt("content");
-        });
+      });
     </script>
     ```
 
