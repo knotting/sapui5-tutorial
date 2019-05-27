@@ -126,38 +126,41 @@
     * View1.controller.js
 
 ---
-### 12. Data Handling
-1. Property Binding
-    * 예제 프로젝트 ([Ex04](https://github.com/knotting/sapui5-tutorial/raw/master/Ex04.zip)) Import
-        * Workspace 우클릭 → Import → File or Project
-        * Browse... → Ex04.zip 선택 → OK
-    * Commented Source 확인
-        * View1.view.xml
-        * View1.controller.js
-2. Aggregation Binding
-    * 예제 프로젝트 ([Ex05](https://github.com/knotting/sapui5-tutorial/raw/master/Ex05.zip)) Import
-        * Workspace 우클릭 → Import → File or Project
-        * Browse... → Ex05.zip 선택 → OK
-    * Commented Source 확인
-        * View1.view.xml
-        * View1.controller.js
-3. Using OData
-    * 예제 프로젝트 ([Ex06](https://github.com/knotting/sapui5-tutorial/raw/master/Ex06.zip)) Import
-        * Workspace 우클릭 → Import → File or Project
-        * Browse... → Ex06.zip 선택 → OK
-    * Destination 설정
-        * SCP Cockpit → 연결 → 대상
-        * 신규 대상 생성
-            * 이름: Northwinds
-            * 내역: Northwinds OData Service
-            * URL: http://services.odata.org
-            * 추가 속성
-                * WebIDEEnabled: true
-                * WebIDESystem: Northwinds
-                * WebIDEUsage: odata_gen
-        * neo-app.json 설정 확인
-    * Commented Source 확인
-        * View1.view.xml
-        * View1.controller.js
+### 12. Data Handling (Property Binding)
+* 예제 프로젝트 ([Ex04](https://github.com/knotting/sapui5-tutorial/raw/master/Ex04.zip)) Import
+    * Workspace 우클릭 → Import → File or Project
+    * Browse... → Ex04.zip 선택 → OK
+* Commented Source 확인
+    * View1.view.xml
+    * View1.controller.js
+
+---
+### 13. Data Handling (Aggregation Binding)
+* 예제 프로젝트 ([Ex05](https://github.com/knotting/sapui5-tutorial/raw/master/Ex05.zip)) Import
+    * Workspace 우클릭 → Import → File or Project
+    * Browse... → Ex05.zip 선택 → OK
+* Commented Source 확인
+    * View1.view.xml
+    * View1.controller.js
+
+---
+### 14. Data Handling (Using OData)
+* 예제 프로젝트 ([Ex06](https://github.com/knotting/sapui5-tutorial/raw/master/Ex06.zip)) Import
+    * Workspace 우클릭 → Import → File or Project
+    * Browse... → Ex06.zip 선택 → OK
+* Destination 설정
+    * SCP Cockpit → 연결 → 대상
+    * 신규 대상 생성
+        * 이름: Northwinds
+        * 내역: Northwinds OData Service
+        * URL: http://services.odata.org
+        * 추가 속성
+            * WebIDEEnabled: true
+            * WebIDESystem: Northwinds
+            * WebIDEUsage: odata_gen
+    * neo-app.json 설정 확인
+* Commented Source 확인
+    * View1.view.xml
+    * View1.controller.js
 
 ---
