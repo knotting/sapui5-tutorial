@@ -127,6 +127,7 @@
 
 ---
 ### 12. Data Handling (Property Binding)
+![DataBinding](https://sapui5.hana.ondemand.com/docs/topics/loio544b09736447477198202b636048bab8_LowRes.png)
 * 예제 프로젝트 ([Ex04](https://github.com/knotting/sapui5-tutorial/raw/master/Ex04.zip)) Import
     * Workspace 우클릭 → Import → File or Project
     * Browse... → Ex04.zip 선택 → OK
