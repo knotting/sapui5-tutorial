@@ -101,29 +101,29 @@
     ```
 
 ---
-### 9. Debugging
-* Chrome Developer Tools
-    * Ctrl + Shift + I (in Chrome)
-    * F12 (in Chrome)
-* UI5 Inspector
-    * Chrome 웹 스토어
-        * https://chrome.google.com/webstore/category/extensions?hl=ko
-
----
-### 10. Documentation
+### 9. Documentation
 * SAPUI5
     * https://sapui5.hana.ondemand.com
 * OPENUI5
     * https://openui5.hana.ondemand.com
 
 ---
-### 11. Using Layouts
+### 10. Using Layouts
 * 예제 프로젝트 ([Ex03](https://github.com/knotting/sapui5-tutorial/raw/master/Ex03.zip)) Import
     * Workspace 우클릭 → Import → File or Project
     * Browse... → Ex03.zip 선택 → OK
 * Commented Source 확인
     * View1.view.xml
     * View1.controller.js
+
+---
+### 11. Debugging
+* Chrome Developer Tools
+    * Ctrl + Shift + I (in Chrome)
+    * F12 (in Chrome)
+* UI5 Inspector
+    * Chrome 웹 스토어
+        * https://chrome.google.com/webstore/category/extensions?hl=ko
 
 ---
 ### 12. Data Handling (Property Binding)
