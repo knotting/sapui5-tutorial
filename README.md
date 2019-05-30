@@ -12,13 +12,13 @@
 * 서비스 → SAP Web IDE 전체 스택(Full Stack) → 서비스로 이동
 
 ---
-### 3. 프로젝트 생성 ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
+### 3. 프로젝트 생성
 * Workspace 우클릭 → New → Project from Template
 * SAPUI5 Application 선택 → Next
 * Project Name: Ex01, Namespace: ns 입력 → Next → Finish
 
 ---
-### 4. Hello, World! ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
+### 4. Hello, World!
 * View1.view.xml 파일의 <content></content> 안에 라벨 작성
     ```xml
     <content><Label text="Hello, World!"/></content>
