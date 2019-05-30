@@ -48,7 +48,7 @@
     * JavaScript
 
 ---
-### 7. SAPUI5 UI Control ([Ex01](https://github.com/knotting/sapui5-tutorial/raw/master/Ex01.zip))
+### 7. SAPUI5 UI Control
 * Label, Input, Button 생성 (View1.view.xml)
     ```xml
     <Page id="page" title="Ex01 - XML View">
